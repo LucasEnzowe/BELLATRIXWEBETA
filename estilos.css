@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+
+.navegador {
+    width: 100%;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    float: left;
+    padding: auto;
+  }
+/* Editable de Logo Nav */
+
+  .logo {
+    width: 20px;
+    height: 20px;
+}
+
+.logo img {
+    width: 80px; 
+    height: auto;
+    padding-left: 21;
+    padding-top: 5;
+  }
+
+/* Editable de Menu Nav */
+
+.navegador ul{
+    padding-left: 20px;
+    margin-top: 6;
+}
+  .navegador ul li {
+    margin: 20px;
+    float: right;
+    list-style-type: none;
+    text-align: left;
+    margin-top: 6;
+    
+}
+  
+  .navegador ul li a {
+
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* EDITABLES INICIO */
+
+.inicio {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+}
+
+.inicio h1 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: 83;
+}
+
+.inicio h2 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+
+.inicio .imgInicio {
+    width: 100%;
+    height: auto;
+}
+
+.imgInicio img {
+    width: 100%;
+    height: auto;
+}
+
+/* SECION VIDEO */ 
+
+.contenedorVideo {
+    width: 100%;
+    height: auto;
+    background-image: url(img/RE-01.png);
+}
+
+.contenedorVideo h2 {
+    color: white;
+    text-align: center;
+}
+
+.contenedorVideo .video {
+    padding-left: 18%;
+    padding-top: 130px;
+}
+
+.contenedordescrip {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+}
+
+.contenedordescrip h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.contenedordescrip h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.formulario {
+    width: 100%;
+    height: auto;
+    background-image: url(img/RE-01.png);
+}
+
+.logo2 {
+    padding-left: 45%;
+    padding-top: 100px;
+}
+
+.formulario h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
